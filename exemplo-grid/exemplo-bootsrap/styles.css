@@ -1,0 +1,19 @@
+/* Único CSS próprio: o que o Bootstrap não oferece pronto */
+.card-hover {
+    transition: transform 0.2s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+}
+.btn-marca {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6f42c1;
+    --bs-btn-border-color: #6f42c1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #59359a;
+    --bs-btn-hover-border-color: #59359a;
+    --bs-btn-active-bg: #4c2c82;
+    --bs-btn-active-border-color: #4c2c82;
+}
+
